@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+#header{
+    background-color: white;
+}
+
+.icono{
+    width: 15px;
+}
+
+.iconoRed{
+    width: 20px;
+}
+
+body{
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.menu1 ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    
+}
+
+.menu1 ul li a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: inline;
+}
+
+.menu1 ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu1 ul li img{
+    width: 20px;
+}
+
+.menu1 ul li{
+    font-size: 20px;
+    align-items: center;
+    display: list-item;
+    margin-top: 30px;
+}
+
+.menu1 ul li:last-child{
+    border-left: 1px solid grey;
+}
+
+main{
+    display: block;
+}
+
+.fondo{
+    background-image: url(imagenes/thor.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.container{
+    width: 150px;
+    margin: 0 auto 0 auto;
+}
+
+.separador{
+    height: 150px;
+}
+
+.content{
+    background-color: #f3f2f2;
+    padding: 10px;
+}
+
+.menu2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu2 ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: disc;
+    margin-bottom: 0;
+    margin-top: 0; 
+}
+
+.menu2 ul img{
+    width: 200px;
+}
+
+.menu2 ul li a{
+   
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.menu2 ul li{
+    list-style: none;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menu2 ul li a:hover{
+    background-color: yellow;
+}
+
+header{
+    background-color: white;
+    margin-top: 0;
+}
+
+.logo{
+    width: 400px;
+    display: block;
+    padding: 0 50px 0 50px;
+}
+
+.menu2 .logo img{
+    width: 200px;
+}
+
+.menu-principal{
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-principal li{
+    width: 120px;
+    margin: 0 5px 0 5px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu-principal li a{
+    color: #0076ec;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: #0076ec;
+}
+
+.menu li a:hover{
+    color: white;
+}
+
+.filtro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.color-azul{
+    color: #0076ec;
+}
+
+.boton-blanco{
+    background-color: white;
+    text-decoration: none;
+    color: #0076ec;
+    font-weight: bold;
+}
+
+.boton-blanco:hover{
+    background-color: #0076ec;
+    color: white;
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.boton-azul{
+    background-color: #0076ec;
+    color: white;
+}
+
+.fichas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ficha{
+    width: 250px;
+    /*height: 500px;*/
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+}
+
+.ficha h3{
+    margin: 10px 0 10px 0;
+    color: #0076ec;
+}
+
+.ficha-img img{
+    width: 200px;
+}
+
+.ficha_botton{
+    margin-top: 10px;
+}
+
+.container_fluid{
+    width: 100%;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1300px;
+    margin: 0px auto 150px auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.iconos ul{
+    display: flex;
+}
+
+.iconos ul li a img{
+    color: #004987;
+}
+
+.fab{
+    width: 50px;
+}
+
+.menu5 ul{
+    align-items: center;
+    color: #004987;
+}
+
+.menu5 li{
+    list-style: none;
+    padding: 80px;
+    color: #004987;
+}
+
+.menu5 ul li a{
+    text-decoration: none;
+}
+
+.menu5 ul li a img{
+    width: 80px;
+    margin-bottom: 0;
+}
+
+.fab{
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+}
+
+footer i{
+    font-size: 50px;
+    color: #004987;
+}
+
+.menu_bottom{
+    padding: 50px;
+}
+
+
+.fila{
+    display: flex;
+}
+
+.col{
+    width: 100%;
+}
+
+h3{
+    color: #004987;
+    margin-bottom: 10px;
+}
+
+.col ul li{
+    list-style: none;
+    line-height: 1.7em;
+}
+
+.col ul li a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.botton_inferior{
+    bottom: 50px;
+    right: 50px;
+    align-items: end;
+}
+
+.botton_inferior i{
+    font-size: 30px;
+    color: #004987;
+}
+
+.botton_inferior img{
+    color: #004987;
+}
+
+.fas{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa_arrow_circle_up img{
+    content: "\f0aa";
+}
+
+.estrellas{
+    margin-top: 10px;
+    color: #fff10e;
+}
+
+
+.estrellas img{
+    width: 30px;
+}
+
+#ficha_iconos{
+    font-family: 'Oswald', sans-serif;
+}
+
+a:-webkit-any-link{
+    cursor: pointer;
+}
+
+.top2{
+    border-bottom: 3px solid #fff10e;
+}
+
+.menu-top2{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-top2 li{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-cinesa li{
+    list-style: none;
+}
+
+.menu-cinesa li a{
+    color: black;
+    text-decoration: none;
+}
+
+
